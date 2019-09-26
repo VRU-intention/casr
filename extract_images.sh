@@ -1,8 +1,8 @@
 #create the images from videos
 
 
-mkdir images
-for file in videos/*.mp4
+mkdir data/images
+for file in data/videos/*.mp4
 do
 
 # check was the video extracted before, if yes, jump to next video
@@ -16,9 +16,9 @@ fname="${filename%.*}"
 echo "processing the video of " $fname
 
 # create a folder corresponding to the processed video for saving images
-mkdir images/$fname
+mkdir data/images/$fname
 
-ffmpeg -i $file -f image2 -qscale 1 images/$fname/frame_%05d.png
+ffmpeg -i $file -f image2 -qscale 1 data/images/$fname/frame_%05d.png
 
 echo "finish and saved the extracted images of " $fname
 done
