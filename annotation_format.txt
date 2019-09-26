@@ -1,0 +1,14 @@
+Annotation has action, action_cyclistcenter, actionstate, bbox_det, bbox_gt, frame_idx, img_height, img_width, left_or_right, orientation, tte, tts, video_folder these parameters.
+action -- 1:left, 2:stop, 3:alternative right, 4:right, 5:no signal. The signals of vehicle-centric.
+action_cyclistcenter -- 0:left, 1:right, 2:sotp, 3:no signal. The signals from the cyclist-centric.
+actionstate -- 1:starting, 2:holding, 3:ending
+bbox_det -- [x1, y1, w, h] detection result by mask-rcnn. (x1, y1) represents top-left corner. w and h represent width and height of the bouding box, respectively.
+bbox_gt -- [x1, y1, w, h] ground truth bouding box. (x1, y1) represents top-left corner. w and h represent width and height of the bouding box, respectively.
+frame_idx -- after extracting the video into images. frame_idx represent the image name, for example 'frame_00001.png'
+img_height -- represents the height of the image.
+img_width -- represents the width of the image.
+left-or-right -- the annotation we used in the paper, which is vehicle-centric. 0:left, 1:right, 2:stop, 3:no signal.
+orientation -- 1:right, 2:left, 3:up, 4:down, 5:top-right, 6:down-left, 7:top-left, 8:down-right. the orientation is the body orientation of cyclist.
+tte -- 'time to end' means how many frames that the action will end.
+tts -- 'time to start' means how many frames the the action have already started.
+video_folder -- video name.
