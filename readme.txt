@@ -1,4 +1,5 @@
 This is a official about our casr dataset, the paper link will be added soon.
+Dataset link: http://adas.cvc.uab.es/casr/
 
 Video folder have 89 videos.
 casr_annotation.pickle is the annotation of 4 cyclists.
@@ -17,3 +18,13 @@ cd ..
 
 You need to run 'sh extract_images.sh' for generating the images from videos. It need several hundred gigabit space. 
 run the script of view.py to extact the sequeces of cyclists. For example: 'python2 view.py --dataset casr --track_number 0', see the view.py for more information.
+
+
+Please cite our arxiv paper if you use our dataset and code.
+
+@article{zhijie2019intention,
+  title={Intention Recognition of Pedestrians and Cyclists by 2D Pose Estimation},
+  author={Zhijie Fang, Antonio M. López},
+  journal={arXiv:1910.03858},
+  year={2019}
+}
