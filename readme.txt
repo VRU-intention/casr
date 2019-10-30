@@ -20,7 +20,15 @@ You need to run 'sh extract_images.sh' for generating the images from videos. It
 run the script of view.py to extact the sequeces of cyclists. For example: 'python2 view.py --dataset casr --track_number 0', see the view.py for more information.
 
 
-Please cite our arxiv paper if you use our dataset and code.
+Please cite our IEEE journal paper if you use our dataset and code.
+@article{zhijie2019intention,
+  title={Intention Recognition of Pedestrians and Cyclists by 2D Pose Estimation},
+  author={Zhijie Fang, Antonio M. López},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  year={2019}
+}
+
+You can also download from the arxiv:
 
 @article{zhijie2019intention,
   title={Intention Recognition of Pedestrians and Cyclists by 2D Pose Estimation},
