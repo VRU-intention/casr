@@ -1,6 +1,8 @@
 This is a official about our casr dataset, the paper link will be added soon.
 Dataset link: http://adas.cvc.uab.es/casr/
 
+We have some problems in video of 'person01_style1_010.mp4', we will fix it as soon as possible.
+
 Video folder have 89 videos.
 casr_annotation.pickle is the annotation of 4 cyclists.
 youtube_annotation.pickle is the annotation of Youtube videos.
